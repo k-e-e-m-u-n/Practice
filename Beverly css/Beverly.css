@@ -1,0 +1,128 @@
+@import url("utility.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --text-color:white;
+    --bag-color:black;
+    --font-weight:700;
+    --padding:1.2rem;
+}
+body {
+    color:var(--text-color);
+    background: var(--bag-color);
+    font-family: "DM Sans", sans-serif;
+    padding: var(--padding);
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight:900;
+    letter-spacing:-1px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.nav-li {
+    list-style-type: none;
+    margin-right: 1rem;
+    font-weight: var(--font-weight);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.nav-li:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.hero {
+    height: 165vh;
+    margin-bottom: 3rem;
+    /* padding: 3.8rem 0rem;   */
+}
+.hero-section {
+    height: 100vh;
+    padding: 3.8rem 0rem;
+}
+.hero-text {
+    font-size: 7rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+}
+.hero-t2 {
+    margin-left: 65vh;
+}
+.hero-section-profile {
+    position: relative;
+}
+.hero-section-p {
+    position:absolute;
+    top: 24vh;
+    left: 26vw;
+    width: 28vw;
+    font-weight: var(--font-weight);
+} 
+.hero-section-pfp-image {
+    position: absolute;
+    left: 60.2vw;
+    width: 35vw;  
+}
+.hero-section-scrolltext {
+    position: absolute;
+    top: 70vh;
+    left: -1.1rem;
+    width: 80vw;
+    z-index: -1;
+}
+.biography-section {
+    height: 200vh;
+}
+.biography-section-top-d {
+    gap: 9.5rem;
+}
+.biography-section-p-l {
+    font-size: 1.7rem;
+    width: 47vw;
+}
+.biography-section-p-r {
+    font-size: 1.1rem;
+    width: 30vw;
+}
+.quote-source {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 1.5rem ; 
+}
+.biography-section-middle-d {
+    height: 100vh;
+    gap: 6.8rem;
+    padding-right: 22.97rem;
+}
+.left-image {
+    width: 32vw;
+}
+.middle-d-text {
+    width: 21vw;
+    font-size: 1.1rem;
+    padding-top: 2rem;
+}
+.biography-section-last-d {
+    padding: 3rem;
+    margin-top: 8rem;
+    gap: 3.5rem;
+}
+.last-d-p {
+    font-weight: 500;
+    width:31vw;
+}
+.left-image-l {
+    margin-top: 3rem;
+    padding-right:15rem;
+    width: 30vw;
+    height: 20vh;
+}
+
+

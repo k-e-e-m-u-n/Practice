@@ -1,0 +1,31 @@
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-right {
+    justify-content: right;
+}
+.p-top{
+    padding-top: 8rem;
+}
+.side-txt-color {
+    color: #ffffffcc; 
+}
+.flex {
+    display: flex;
+}
+.flex-d {
+    flex-direction: column;
+}
+.text-align-j {
+    text-align: justify;
+}
+.text-center {
+    text-align: center;  
+}
+.align-c {
+    align-items: center;
+}
+.jc-c {
+    justify-content: center;
+
+}
